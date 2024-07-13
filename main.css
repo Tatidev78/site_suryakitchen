@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-sizing: border-box;
+    background-color: black;
+}
+header{
+    padding: 16px;
+    justify-content: center;
+    background-color: black;
+    font-size: 16px;
+}
+header h1{
+    color: white;
+    font-size: 40px;
+    margin-left:  10px;
+    margin-right: 10px;
+    display: inline;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-weight: normal;
+}
+header nav li{
+    font-size: 24px;
+    margin-left: 16px;
+    display: inline;
+}
+header nav li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.25s;
+}
+header nav li a:hover{
+    color: lightcoral;
+    font-size: 26px;
+}
+.container{
+    max-width: 1580px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+.main{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    padding: 24px;
+    font-size: 26px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: normal;
+    color: antiquewhite;
+    justify-content: left;
+    display: flex;  
+    align-items: center;
+}
+#teste img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 10px 10px;
+}
+.produtos{
+    background-color: black;
+}
+#teste{
+    color:antiquewhite;
+    flex-direction: row;
+    display: flex;
+}
+.refri a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 26px;
+    display: flex;
+    margin-left: 20px;
+}
+form input,
+form textarea, 
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin-left: 10px;
+}
+input:focus, textarea:focus{
+    outline-color: red;
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+form button{
+    background-color: azure;
+    cursor: pointer;
+}
+.social-links img{
+    height: 30px;
+}
+.social-links li{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-left: 16px;
+}
+.social-links img{
+    cursor: pointer;
+}
+footer.container{
+    color: whitesmoke;
+    padding: 16px 0;
+    display: block;
+    width: 1180px;
+}
+
